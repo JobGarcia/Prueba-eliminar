@@ -30,22 +30,60 @@
     <!-- Esta etiqueta nos permite indicarle al navegador cual es la pagina oficial y original. Para mas info ver documentacion de HTML5 -->
     <link rel="canonical" href="https://monoware.mx">
 
-    <style> body { background-color: #66CC66; } </style>
+    <style> body { background-color: #05b96e23; } </style>
 </head>
 <body>
-    <h1>Portafolio de Job García</h1>
-    <p>Esta práctica de HTML la desarrolle a la par de estar tomando el curso de @midudev en Youtube.</p>
-    <p>El curso se llama: Curso completo de HTML GRATIS desde cero: SEO, semántica y más.</p>
-    <p>Mi Nombre es Job García, actualmente estoy trabajando para <strong>CPKC</strong>, a la vez que estoy iniciando con un mayor compromiso a aprender a programar en PHP y de más tecnologías que considere necesarias, para tal vez en un futuro poder tener un segundo ingreso <i>(aunque sea pasivo)</i> con estos conocimientos.</p>
+    <header>
+        <h1>Portafolio de Job García</h1>
+        <!-- Dentro de NAV veremos los dos tipos de enlaces mas comunes. -->
+        <nav> 
+            <a href="#experiencia">Experiencia.</a>
+            <a href="#proyectos">Proyectos.</a>
+            <a href="https://jobgarcia.github.io/Prueba-eliminar/">GitPages del sitio.</a>
+        </nav>
+    </header>
 
-    <h2>Experiencia</h2>
-    <ul> 
-        <li>Quiwi Labs - 2008</li>
-        <li>Mercadito - 2009</li>
-        <li>Timonel - 2011</li>
-        <li>@Mercadito - 2023</li>
-    </ul>
+    <main>
+        <p>Esta práctica de HTML la desarrolle a la par de estar tomando el curso de @midudev en Youtube.</p>
+        <p>El curso se llama: Curso completo de HTML GRATIS desde cero: SEO, semántica y más.</p>
+        <p>Mi Nombre es Job García, actualmente estoy trabajando para <strong>CPKC</strong>, a la vez que estoy iniciando con un mayor compromiso a aprender a programar en PHP y de más tecnologías que considere necesarias, para tal vez en un futuro poder tener un segundo ingreso <i>(aunque sea pasivo)</i> con estos conocimientos.</p>
 
-    <img src="images/profile-pic.png" alt="">
+        <h2 id="experiencia">Experiencia</h2>
+        <ul> 
+            <li>Quiwi Labs - 2008</li>
+            <li>Mercadito - 2009</li>
+            <li>Timonel - 2011</li>
+            <li>@Mercadito - 2023</li>
+        </ul>
+
+        <img id="foto_perfil" height="150" width="150" title="Foto de Job García" src="images/profile-pic.png" alt="Una fotografía de Job García posando con un paquete de café de El Portal.">
+
+        <h2>Proyectos realizados</h2>
+        <aside>
+            <header> <h3>Lenguajes de programación que manejo.</h3> </header>
+            <ol>
+                <li>Esto</li>
+                <li>es</li>
+                <li>un </li>
+                <li>enlistado</li>
+            </ol>
+        </aside>
+
+        <section>
+            <article>
+                <header> <h4></h4> </header>
+                <footer> <small></small> </footer>
+            </article>
+        </section>
+        
+        <section>
+            <article>
+                <header> <p></p> </header>
+                <footer> <small></small> </footer>
+            </article>
+        </section>
+    </main>
+    
+    <footer>Copyright © 2023</footer>
 </body>
 </html>
